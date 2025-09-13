@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -193,3 +194,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Python
+*.pyc
+
+# Virtual Environments
+*myenv
+
+# Jupyter Notebooks
+*.h5
+*.pkl
+
+# API Keys and Secrets
+API/API_KEYS/
+**/API_KEYS/
+*.env
+.env.local
+.env.production
+
+# Images and Face Recognition Samples
+*.samples/
+engine/auth/samples/

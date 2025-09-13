@@ -3,12 +3,12 @@ playsound==1.2.2
 pyttsx3
 openai-whisper
 sounddevice
-pandas
+pandas==2.0.3
 numpy==1.26.4
 pywhatkit
 pvporcupine==1.9.5
 pyaudio
-open-cv-python
+opencv-python
 opencv-contrib-python
 openai
 
@@ -22,3 +22,6 @@ scikit-learn==1.5.2
 librosa
 
 python-dotenv
+matplotlib
+seaborn
+Pillow
